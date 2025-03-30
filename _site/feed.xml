@@ -5,12 +5,244 @@
     <description>Boardy</description>
     <link>http://localhost:4000/Boardy/</link>
     <atom:link href="http://localhost:4000/Boardy/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Mar 2025 18:57:38 +0700</pubDate>
-    <lastBuildDate>Mon, 17 Mar 2025 18:57:38 +0700</lastBuildDate>
+    <pubDate>Sun, 30 Mar 2025 11:20:19 +0700</pubDate>
+    <lastBuildDate>Sun, 30 Mar 2025 11:20:19 +0700</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
-        <title>SETI</title>
+        <title>วิธีเล่น Puerto Rico 1897</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;เกม Puerto Rico 1897 มีธีมเกี่ยวกับการพัฒนาเศรษฐกิจและการค้าในช่วงปลายศตวรรษที่ 19 บนเกาะเปอร์โตริโก ซึ่งขณะนั้นอยู่ภายใต้การปกครองของสเปน แต่กำลังเข้าสู่ช่วงเปลี่ยนผ่านสู่ความเป็นอิสระ ผู้เล่นรับบทเป็นชาวเมืองที่พยายามสร้างความเจริญให้กับเกาะของตนเองผ่านการปลูกพืชผลสำคัญ เช่น ข้าวโพด น้ำตาล กาแฟ ยาสูบ และคราม เพื่อนำไปค้าขายและพัฒนาเมือง&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/puerto-rico/1.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;h4 id=&quot;บอร์ดกลาง&quot;&gt;บอร์ดกลาง&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;วางเงินและไทล์ building ไว้ที่บอร์ดกลาง&lt;/li&gt;
+  &lt;li&gt;ทำกองคว่ำไทล์ไร่แล้วเปิดตามจำนวนผู้เล่น + 1&lt;/li&gt;
+  &lt;li&gt;ไทล์เหมืองวางไว้ข้างๆ ไทล์ที่เปิด&lt;/li&gt;
+  &lt;li&gt;แต้ม
+    &lt;ol&gt;
+      &lt;li&gt;2 คน: 65 แต้ม&lt;/li&gt;
+      &lt;li&gt;3 คน: 75 แต้ม&lt;/li&gt;
+      &lt;li&gt;4 คน: 100 แต้ม&lt;/li&gt;
+      &lt;li&gt;5 คน: 126 แต้ม&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;การ์ด Role
+    &lt;ol&gt;
+      &lt;li&gt;2 คน: 7 ใบ (Adventurer ออก 1)&lt;/li&gt;
+      &lt;li&gt;3 คน: 6 ใบ (Adventurer ออก 2)&lt;/li&gt;
+      &lt;li&gt;4 คน: 7 ใบ (Adventurer ออก 1)&lt;/li&gt;
+      &lt;li&gt;5 คน: 8 ใบ (ใช้หมด)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;เรือ
+    &lt;ol&gt;
+      &lt;li&gt;2 คน: 4, 6&lt;/li&gt;
+      &lt;li&gt;3 คน: 4, 5, 6&lt;/li&gt;
+      &lt;li&gt;4 คน: 5, 6, 7&lt;/li&gt;
+      &lt;li&gt;5 คน: 6, 7 ,8&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;สินค้า (2 คนเอาออกชนิดละ 2)&lt;/li&gt;
+  &lt;li&gt;Trading House&lt;/li&gt;
+  &lt;li&gt;Work Register (วางคนงานตามจำนวนผู้เล่น)&lt;/li&gt;
+  &lt;li&gt;คนงาน
+    &lt;ol&gt;
+      &lt;li&gt;2 คน: 40 ตัว&lt;/li&gt;
+      &lt;li&gt;3 คน: 55 ตัว&lt;/li&gt;
+      &lt;li&gt;4 คน: 75 ตัว&lt;/li&gt;
+      &lt;li&gt;5 คน: 95 ตัว&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;บอร์ดผู้เล่น&quot;&gt;บอร์ดผู้เล่น&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ผู้เล่นคนแรกได้การ์ด Governor&lt;/li&gt;
+  &lt;li&gt;แผ่นเกาะ&lt;/li&gt;
+  &lt;li&gt;เงิน ตามจำนวนผู้เล่น - 1&lt;/li&gt;
+  &lt;li&gt;ไทล์ไร่
+    &lt;ol&gt;
+      &lt;li&gt;2 คน: 1st ผลไม้, 2nd ข้าวโพ้ด&lt;/li&gt;
+      &lt;li&gt;3 คน: 1st ผลไม้, 2nd, 3rd, 4th ข้าวโพ้ด&lt;/li&gt;
+      &lt;li&gt;4 คน: 1st, 2nd ผลไม้, 3rd, 4th ข้าวโพ้ด&lt;/li&gt;
+      &lt;li&gt;5 คน: 1st, 2nd, 3rd ผลไม้, 4th, 5th ข้าวโพ้ด&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/puerto-rico/2.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
+
+&lt;p&gt;ใช้ระบบ Lead &amp;amp; Follow โดยแต่ละรอบจะเริ่มจากผู้เล่นคนแรก (คนที่มีการ์ด Governor) ให้เลือก Role แล้วเล่น จากนั้นคนถัดไปตามเข็มก็เล่น Role เดียวกับที่ผู้เล่นคนแรกเลือก เมื่อเล่นครบทุกคน คนถัดไปตามเข็มก็จะได้เลือก Role ที่เหลืออยู่ แล้วคนอื่นๆ ก็เล่นตามเหมือนเดิม เมื่อทุกคนได้เลือกได้ Role หมดแล้ว ถือว่าเป็นการจบ 1 รอบ ให้วนการ์ด Governor ตามเข็ม แล้วใส่เงิน 1 บาทบนการ์ด Role ที่ไม่ถูกเลือก จากนั้นคือ Role ที่เลือกไป แล้วเล่นรอบใหม่เหมือนเดิม (คนที่เลือก Role ที่มีเงินก็จะได้เงินไปด้วย)&lt;/p&gt;
+
+&lt;p&gt;ผู้เล่นจะเล่นวนไปเรื่อยๆ จนเข้าเงื่อนไขจบคือ&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;คนงานหมด&lt;/li&gt;
+  &lt;li&gt;แต้มหมด&lt;/li&gt;
+  &lt;li&gt;มีคนสร้าง Building ครบ 12 อัน&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;แล้วเกมจะจบในรอบนั้นเล่น (ทุกคนเลือก Role จนครบ)&lt;/p&gt;
+
+&lt;h4 id=&quot;role&quot;&gt;Role&lt;/h4&gt;
+
+&lt;h5 id=&quot;the-planter&quot;&gt;The Planter&lt;/h5&gt;
+
+&lt;p&gt;เลือกไทล์ไร่ 1 ไทล์ จากที่เปิดอยู่ แล้ววางลงบนเกาะตัวเอง&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;ถ้าเลือกคนแรกจะได้เลือกเหมืองได้&lt;/mark&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;เมื่อทุกคนเล่นครบจะรีไทล์ทั้งหมด&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;the-recruiter&quot;&gt;The Recruiter&lt;/h5&gt;
+
+&lt;p&gt;หยิบคนงานทีละ 1 ตัว จาก Work Register จากนั้นเอาคนงานย้ายไปทำงานต่อได้ทันที แต่เงื่อนไขคือต้องวางเต็มไทล์ไร่ก่อนถึงจะวางที่ Building ได้&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;ถ้าเลือกคนแรกจะได้หยิบคนงานจากกองกลาง 1 ตัว&lt;/mark&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;หยิบไปเรื่อยๆ จนกว่าคนงานจะหมด เมื่อทุกคนเล่นเสร็จจะเติมคนงานตามจำนวนผู้เล่น&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;the-builder&quot;&gt;The Builder&lt;/h5&gt;
+
+&lt;p&gt;ซื้อ Building (ราคามุมซ้ายล่าง, มุมบนขวาคือแต้ม) แล้ววางลงเกาะตัวเอง และถ้ามีเหมืองสามารถลดราคาได้ (ต้องมีคนงานด้วย) และต้องดูว่า Building นั้นสามารถใช้เหมืองลดได้กี่เหมือง แต่ละเหมืองลด 1 บาท&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;ถ้าเลือกคนแรกได้ลดราคา 1 บาท&lt;/mark&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;สร้าง Builiding ซ้ำไม่ได้&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;the-craftsman&quot;&gt;The Craftsman&lt;/h5&gt;
+
+&lt;p&gt;ผลิตสินค้าจาก Building และไร่ข้าวโพด เงื่อนไขจาก Building คือต้องมีไร่ตรงกับอาคาร เช่น ถ้าอยากได้ผลไม้ 2 ต้องมีไร่ผลไม้ 2 ไร่ และคนงานทำที่ Building ผลไม้ 2 คน ถ้ามีไร่เดียวก็จะได้แค่ 1 ผลไม้&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;ถ้าเลือกคนแรกจะได้หยิบสินค้า 1 ชิ้นจากสินค้าที่ผลิตได้ (เลือกแค่ 1 ชนิด)&lt;/mark&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ของมีจำกัด ถ้าสินค้าหมดต้องรอคนเอาสินค้าไปขาย&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;the-trader&quot;&gt;The Trader&lt;/h5&gt;
+
+&lt;p&gt;&lt;u&gt;สินค้าแลกเงิน&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;เลือกสินค้า 1 ชิ้น เอาไปขายแล้วได้เงินตามเลขที่บอกบนการ์ด เงื่อนไขคือขายได้ชนิดละชิ้น ถ้าเต็มแล้วถึงโละใหม่&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;ถ้าเลือกคนแรกได้เงินเพิ่ม 1 บาท (แต่ต้องขายได้)&lt;/mark&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;the-captain&quot;&gt;The Captain&lt;/h5&gt;
+
+&lt;p&gt;&lt;u&gt;สินค้าแลกแต้ม&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;โหลดสินค้าลงเรือ โดยเลือกแค่ 1 ชนิด ซึ่งเรือแต่ละลำจะรับได้แค่ 1 ชนิด และรับสินค้าซ้ำกับเรืออื่นไม่ได้ เมื่อโหลดแล้วจะได้ 1 แต้มต่อจำนวนสินค้าที่โหลด เมื่อโหลดจนครบทุกคนต้องทิ้งสินค้าให้เหลือแค่ชิ้นเดียว&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;ถ้าเลือกคนแรกจะได้เพิ่ม 1 แต้ม (แต่ถ้าโหลดไม่ได้ จะไม่ได้โบนัสนี้)&lt;/mark&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ถ้าโหลดได้ บังคับโหลดเสมอ&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;the-adventurer&quot;&gt;The Adventurer&lt;/h5&gt;
+
+&lt;p&gt;&lt;mark&gt;ได้เงิน 1 บาทจากธนาคาร ได้แค่คนแรก คนที่เหลือไม่ได้ทำ&lt;/mark&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;endgame--scoring&quot;&gt;Endgame &amp;amp; Scoring&lt;/h3&gt;
+
+&lt;h4 id=&quot;endgame&quot;&gt;Endgame&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;คนงานหมด&lt;/li&gt;
+  &lt;li&gt;แต้มหมด&lt;/li&gt;
+  &lt;li&gt;สร้าง building เต็มเกาะ (building ใหญ่จะเป็น 2 ช่อง)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;เมื่อเข้าเงื่อนไข จะเล่นจนจบรอบ ทุกคนได้เลือก Role&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;scoring&quot;&gt;Scoring&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Building ทั้งหมด&lt;/li&gt;
+  &lt;li&gt;VP ที่เก็บมาทั้งเกม&lt;/li&gt;
+  &lt;li&gt;แต้มโบนัสจาก building ใหญ่&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ถ้าแต้มเสมอ เอาเงิน + จำนวนสินค้า ใครเยอะสุดจะชนะ&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2p-rules&quot;&gt;2P rules&lt;/h3&gt;
+
+&lt;h4 id=&quot;setup-1&quot;&gt;Setup&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;แต่ละคนได้รับ เงิน 3 บาท, คนแรกได้ไร่ผลไม้ และคนที่สองได้ไร่ข้าวโพด&lt;/li&gt;
+  &lt;li&gt;ใช้แต้มทั้งหมด 65 แต้ม&lt;/li&gt;
+  &lt;li&gt;เอาไทล์ไร่ออกชนิดละ 3 (ข้าวโพด, ผลไม้, ผลไม้, ยาสูบ, เหมือง) แล้วเปิด 3 อัน&lt;/li&gt;
+  &lt;li&gt;ใช้ Role 7 อัน (ยกเว้น The Adventurer 1 ใบ)&lt;/li&gt;
+  &lt;li&gt;เรือ 4 และ 6&lt;/li&gt;
+  &lt;li&gt;เอาสินค้าออกชนิดละ 2&lt;/li&gt;
+  &lt;li&gt;Work Register เริ่มมามีคนงาน 2 และทั้งเกมใช้ 40 ตัว&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;gameplay-1&quot;&gt;Gameplay&lt;/h4&gt;
+
+&lt;p&gt;เล่นเหมือนปกติ แต่จะได้เลือก 3 Role ต่อรอบ&lt;/p&gt;
+
+&lt;h4 id=&quot;endgame--scoring-1&quot;&gt;Endgame &amp;amp; Scoring&lt;/h4&gt;
+
+&lt;p&gt;เหมือนตัวเกมปกติ&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Mar 2025 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/Boardy/puerto-rico/</link>
+        <guid isPermaLink="true">http://localhost:4000/Boardy/puerto-rico/</guid>
+        
+        <category>วิธีเล่น</category>
+        
+        
+        <category>Economic</category>
+        
+        <category>Farming</category>
+        
+        <category>Action Drafting</category>
+        
+      </item>
+    
+      <item>
+        <title>วิธีเล่น SETI</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;ธีมคือเราเป็นเจ้าของสถาบันวิทยาศาสตร์ที่จะแข่งกันค้นหาร่องรอยสิ่งมีชีวิตนอกโลก ผู้เล่นสามารถสำรวจได้จากการปล่อยยานสำรวจจากโลก หรือการวิเคราะห์ข้อมูลจากการส่งคลื่นสัญญาณไปยังดาวเคราะห์นอกระบบสุริยะ ซึ่งในระหว่างนั้นผู้เล่นสามารถอัปเกรดอุปกรณ์ต่างๆ เพื่อเพิ่มประสิทธิภาพในการสำรวจให้ดียิ่งขึ้น&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -34,7 +266,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;บอร์ดกลาง-1&quot;&gt;บอร์ดกลาง&lt;/h4&gt;
+&lt;h4 id=&quot;บอร์ดผู้เล่น&quot;&gt;บอร์ดผู้เล่น&lt;/h4&gt;
 
 &lt;ol&gt;
   &lt;li&gt;คนแรกได้ดวงจันทร์&lt;/li&gt;
@@ -255,7 +487,9 @@
         <category>วิธีเล่น</category>
         
         
-        <category>SETI Search for Extraterrestrial Intelligence</category>
+        <category>Space</category>
+        
+        <category>Multi-Use Cards</category>
         
       </item>
     
