@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "วิธีเล่น La Granja"
-categories: [Dice Drafting]
+categories: [Dice Drafting, Economic]
 tags: [วิธีเล่น]
 image: assets/images/la-granja/pic6655621.png
 author: p

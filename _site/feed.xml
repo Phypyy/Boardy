@@ -5,9 +5,318 @@
     <description>Boardy</description>
     <link>http://localhost:4000/Boardy/</link>
     <atom:link href="http://localhost:4000/Boardy/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Mar 2025 11:20:19 +0700</pubDate>
-    <lastBuildDate>Sun, 30 Mar 2025 11:20:19 +0700</lastBuildDate>
+    <pubDate>Fri, 11 Apr 2025 10:45:45 +0700</pubDate>
+    <lastBuildDate>Fri, 11 Apr 2025 10:45:45 +0700</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>วิธีเล่น Age of Steam</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;ม้าเหล็กพ่นไอน้ำคำรามไปทั่วทุ่งราบอันกว้างใหญ่! ย้อนเวลากลับไปในยุคการบุกเบิกของรถไฟ เราต่างกันแข่งขันกันส่งสินค้าจากเมืองสู่อีกเมือง&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/aos/4.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;p&gt;&lt;mark&gt;บางอย่างจะมีการเปลี่ยนแปลงเมื่อเปลี่ยนแผนที่ Setup นี้เป็น Basic setup&lt;/mark&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;บอร์ดกลาง&quot;&gt;บอร์ดกลาง&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;วางไทล์แยกประเภทไว้&lt;/li&gt;
+  &lt;li&gt;วางไทล์เมืองแยกสีไว้&lt;/li&gt;
+  &lt;li&gt;เหรียญ เทา: 1$, แดง: 5$, น้ำเงิน: 25$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;เอา Cube ใส่ถุง&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;สุ่มวาง Cube (สีขาวใช้แค่บาง Expension) ไว้ที่ Goods Growth&lt;/li&gt;
+      &lt;li&gt;สุ่มวาง Cube 3 อันที่ Wheeling และเมืองที่เหลือจะวาง 2 อัน&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;วาง Turn track ไว้ที่ Start&lt;/li&gt;
+  &lt;li&gt;ผู้เล่นแต่ละคนวาง Disk ที่ Display board ดังนี้
+    &lt;ol&gt;
+      &lt;li&gt;Issued Shares&lt;/li&gt;
+      &lt;li&gt;Determine Player Order&lt;/li&gt;
+      &lt;li&gt;Select Actions&lt;/li&gt;
+      &lt;li&gt;Income Track ที่ 0&lt;/li&gt;
+      &lt;li&gt;Engine Track&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ได้เงินเริ่มต้น 10$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/aos/5.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
+
+&lt;p&gt;เกมจะมีทั้งหมด 10 เฟส เมื่อจบ 10 เฟสคือจบ 1 รอบ โดยจะเล่นจำนวนรอบตามจำนวนผู้เล่น ในแต่ละรอบจะประมูลเทิร์นออเดอร์แล้ววาง Action จากนั้นสร้างราง ส่งสินค้า รับ Income จ่ายหนี้ แล้วเริ่มรอบใหม่&lt;/p&gt;
+
+&lt;h4 id=&quot;phase&quot;&gt;Phase&lt;/h4&gt;
+
+&lt;h5 id=&quot;i-issue-share&quot;&gt;I. Issue Share&lt;/h5&gt;
+
+&lt;p&gt;Issue 1 share = 5$&lt;/p&gt;
+
+&lt;p&gt;หนี้อยู่มุมบนขวาของแต่ละช่อง ซึ่งจะจ่ายในเฟส &lt;mark&gt;Pay Expenses&lt;/mark&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;ii-determine-player-order&quot;&gt;II. Determine Player Order&lt;/h5&gt;
+
+&lt;p&gt;ประมูลหาลำดับการเล่น โดยคนแรกจะประมูลก่อน เริ่มต้นที่ 1$ ลำดับถัดไปประมูลต่อ (ในตาแรกจะวนตามเข็มจากคนแรก) ซึ่งใครผ่านคนแรก จะไปอยู่ตำแหน่งสุดท้ายแต่ไม่ต้องจ่ายเงินค่าประมูล&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ที่ 1 และ 2 จะต้องจ่ายเต็ม
+ที่ 3 หรือตรงกลางจะจ่ายครึ่งหนึ่ง ปัดขึ้น&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;iii-select-actions&quot;&gt;III. Select Actions&lt;/h5&gt;
+
+&lt;p&gt;เลือกทำ Actions ตามลำดับผู้เล่น&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;Locomotive&lt;/mark&gt; จะได้เลื่อนในส่วน Engine Track 1 ช่องทันที&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;iv-build-track&quot;&gt;IV. Build Track&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;สร้างรางได้สูงสุด 3 ราง โดยจะเริ่มสร้างจากลำดับผู้เล่นคนแรก ถ้ามีคนเลือก &lt;mark&gt;First Build&lt;/mark&gt; จะได้สร้างก่อนแล้วค่อยเป็นผู้เล่นคนแรก&lt;/li&gt;
+  &lt;li&gt;ราคารางจะอยู่ใน Display board&lt;/li&gt;
+  &lt;li&gt;เมื่อวางรางให้เอา Disk ของตัวเองวางไว้บนรางที่สร้างเสร็จแล้วและยังไม่เสร็จ เพื่อบอกว่ารางนี้เป็นของใคร ซึ่งรางไหนที่ยังไม่เสร็จแล้วรอบหน้าไม่ได้มาสร้างต่อ จะต้องเอา Disk ออก (คนอื่นมาเคลมได้)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;mark&gt;Engineer&lt;/mark&gt; สร้างได้ 4 ราง&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;Urbanization&lt;/mark&gt; วางเมืองบน Town ก่อนแล้วสร้างราง&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;รางสามารถสร้างออกจากเมืองไหนก็ได้ หรือ รางของตัวเองที่ยังไม่เสร็จ&lt;/p&gt;
+
+  &lt;p&gt;ใช้รางธรรมดาทำเป็น Town ได้ โดยใช้แท่งขาววางลงไป จ่ายราคาเหมือนรางเมือง&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;v-move-goods&quot;&gt;V. Move Goods&lt;/h5&gt;
+
+&lt;p&gt;ผู้เล่นทุกคนจะได้ทำ 2 ครั้ง โดยจะทำหรือไม่ทำก็ได้&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;อัปเกรดได้ครั้งเดียว แต่ส่งสินค้าได้ 2 ครั้ง&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;เลือกว่าจะอัปเกรด Link หรือ ส่งสินค้า&lt;/li&gt;
+  &lt;li&gt;ส่งสินค้าโดย&lt;mark&gt;สี Cube กับสีเมืองต้องเหมือนกัน&lt;/mark&gt; ถ้าไหลมาเจอสีเดียวกันถือว่าจบการส่ง&lt;/li&gt;
+  &lt;li&gt;เมื่อส่งแล้วได้ขึ้น Income ตามจำนวนการผ่านเมือง เช่น ผ่าน 2 เมือง ได้ขึ้น 2 Income&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1 Link = ผ่านได้ 1 เมือง (ไม่นับจุดเริ่ม)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;vi-collect-income&quot;&gt;VI. Collect Income&lt;/h5&gt;
+
+&lt;p&gt;ได้เงินโดนดูที่ Income track&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;vii-pay-expenses&quot;&gt;VII. Pay Expenses&lt;/h5&gt;
+
+&lt;p&gt;จ่ายหนี้จากค่า Issue Share + จำนวน Link ถ้าเงินขาดจะต้องลด Income 1&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ถ้าลด Income ไม่ได้แล้วจะถือว่าล้มละลาย ออกจากเกมทันที&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;viii-income-reduction&quot;&gt;VIII. Income Reduction&lt;/h5&gt;
+
+&lt;p&gt;ลด Income ตามช่องเทาๆ ข้างหน้า เช่นถ้าได้ 11- 20 จะโดนลบ 2 Income&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;ix-goods-growth&quot;&gt;IX. Goods Growth&lt;/h5&gt;
+
+&lt;p&gt;เติมสินค้าไปยังเมืองต่างๆ โดยทำด้านสว่างก่อนแล้วค่อยทำด้านมืด&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ทอยเต๋าเท่ากับจำนวนผู้เล่น (นับคนที่ล้มละลาย) เต๋า 1 ลูก แทนสินค้า 1 ชิ้น&lt;/li&gt;
+  &lt;li&gt;หยิบสินค้าโดยดูคอลัมน์ที่ตรงกับเลขที่ทอย แล้วเอาไปวางในเมืองที่เลขเดียวกัน&lt;/li&gt;
+  &lt;li&gt;ถ้ามีคอลัมน์ตัวอักษรด้านล่างให้เอาไปวางเมืองที่ตรงกับตัวอักษร (ถ้าไม่มีไม่ต้องวาง)&lt;/li&gt;
+  &lt;li&gt;ทำใหม่อีกครั้งแต่หยิบจากด้านมืด&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;mark&gt;Production&lt;/mark&gt; ให้สุ่มหยิบสินค้า 2 อันวางที่ไหนก็ได้ที่เป็นที่ว่าง&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;x-advance-turn-marker&quot;&gt;X. Advance Turn Marker&lt;/h5&gt;
+
+&lt;p&gt;เลื่อนรอบขึ้นไป 1 รอบ&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/aos/6.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;endgame--scoring&quot;&gt;Endgame &amp;amp; Scoring&lt;/h3&gt;
+
+&lt;p&gt;Turn marker มาถึงรอบสุดท้าย เล่นจนจบรอบนั้นแล้วจบเกม&lt;/p&gt;
+
+&lt;h4 id=&quot;scoring&quot;&gt;Scoring&lt;/h4&gt;
+
+&lt;p&gt;3 แต้ม / Income track&lt;/p&gt;
+
+&lt;p&gt;-3 แต้ม / Issue share&lt;/p&gt;
+
+&lt;p&gt;1 แต้มต่อรางที่ Complete (เมือง - เมือง)&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;( (Income - Issue share) x 3 ) + แต้มจากราง&lt;/mark&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Apr 2025 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/Boardy/age-of-steam/</link>
+        <guid isPermaLink="true">http://localhost:4000/Boardy/age-of-steam/</guid>
+        
+        <category>วิธีเล่น</category>
+        
+        
+        <category>Train</category>
+        
+        <category>Pickup and Delivery</category>
+        
+        <category>Economic</category>
+        
+      </item>
+    
+      <item>
+        <title>วิธีเล่น The Search for Lost Species</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;แข่งกันตามหาสัตว์สายพันธุ์หากยากในเกาะ ผู้ชนะคือคนที่มีแต้มเยอะสุด ซึ่งแต้มจะหาได้จากการค้นพบสายพันธุ์สัตว์ต่างๆ&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/lost-species/1.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;เปิดแอพแล้วเลือกว่าจะเล่นเกาะไหน สัตว์ตัวไหน จะสุ่มจากแอพหรือสุ่มเองแล้วค่อยเลือกในแอพก็ได้&lt;/li&gt;
+  &lt;li&gt;แยกโทเคนเลขตามรูปทรงใส่ในเรือ&lt;/li&gt;
+  &lt;li&gt;ดูว่านั่งทิศไหนของแผนที่ แล้วแจกกระดาษจดให้ตามทิศ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
+
+&lt;p&gt;เกมจะใช้ระบบ Time track คนที่อยู่ด้านหลังจะเล่นได้เรื่อยๆ จนกว่าจะนำคนหน้า โดยจะมีให้เลือกทำ 1 ใน 5 Actions เพื่อหาจุดเชื่อมโยงของสัตว์ภายในเกาะ ยิ่งสำรวจแคบยิ่งเดินไกล และมี Leader เป็นบอทที่จะเดินเมื่อทุกคนผ่านเขาไป ซึ่งจะทำให้ผลประโยชน์บางอย่างเช่น คำใบเพิ่ม หรือ การเดาสัตว์เพื่อทำแต้ม ในตอนจบเกมคนที่เจอสัตว์หายากอาจะแพ้ก็ได้&lt;/p&gt;
+
+&lt;p&gt;สายพันธุ์สัตว์ในเกมจะมีทั้งหมด 4 สายพันธุ์ และอีก 1 สายพันธุ์ที่เราต้องตามหา โดยในแต่ละช่องจะมีแค่สัตว์สายพันธุ์เดียวเท่านั้น&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cuscus: อยู่ 3 ที่เท่านั้น โดยทุกตัวจะอยู่ห่างกันแค่ 1 - 2 ช่อง&lt;/li&gt;
+  &lt;li&gt;นก: อยู่ 4 ช่อง โดยอยู่เป็น Pattern&lt;/li&gt;
+  &lt;li&gt;กบ: อยู่ 2 ช่อง โดยอยู่ข้างๆ ช่องว่าง 2 ช่อง&lt;/li&gt;
+  &lt;li&gt;งู: จะไม่อยู่ใกล้ Cuscus&lt;/li&gt;
+  &lt;li&gt;??: อยู่ในช่องว่าง (ในเกมมีทั้งหมด 6 ซึ่งจะมีช่องหนึ่งมี ?? อยู่) ระหว่างเล่นจะได้คำใบเพิ่ม และดูนิสัยได้จากการ์ดสัตว์ตัวนั้นๆ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;flow&quot;&gt;Flow&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;เริ่มมาคนที่อยู่หลังจะได้เล่นก่อน จากนั้นคนที่อยู่หลังสุดจะเล่นต่อเรื่อยๆ จนกว่าจะนำคนข้างหน้า&lt;/li&gt;
+  &lt;li&gt;เลือกทำ 1 ใน 5 actions&lt;/li&gt;
+  &lt;li&gt;เมื่อทำ Action แล้วให้เดินตัวเราไปตามจำนวนนาฬิกา&lt;/li&gt;
+  &lt;li&gt;ถ้าทุกคนผ่าน Leader ทำตามเงื่อนไขบนช่องแต้ม
+    &lt;ol&gt;
+      &lt;li&gt;วางโทเคนการสำรวจคว่ำไว้บนช่องในแผนที่ 0 - 2 อัน (วางช่องเดียวกันได้) และให้วางเลขตามรูปทรงด้านบน โดยจะเฉลยเมื่อ Leader เหยียบบนช่องที่บอกเฉลยเลขดังกล่าว
+        &lt;ol&gt;
+          &lt;li&gt;ตอบถูกได้แต้มที่วางไว้ ถ้าเป็นคนแรกที่หานกเจอจะได้อีกแต้ม&lt;/li&gt;
+          &lt;li&gt;ตอบผิดเสียแต้ม และเอาออกจากเกม แล้วเดินไปข้างหน้าอีกช่อง&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;ได้คำใบ้เพิ่มเติม&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;actions&quot;&gt;Actions&lt;/h4&gt;
+
+&lt;h5 id=&quot;visit-town&quot;&gt;Visit town&lt;/h5&gt;
+
+&lt;p&gt;&lt;mark&gt;1 - 3 ช่อง&lt;/mark&gt;&lt;/p&gt;
+
+&lt;p&gt;ต้องเดินไปที่หมู่บ้าน แล้ววางโทเคนหมู่บ้าน (คนอื่นวางได้อีก) จากนั้นเลือก Research แล้วหยิบการ์ด&lt;/p&gt;
+
+&lt;p&gt;การ์ดสีชมพูหลักๆ จะมี 4 ประเภท&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ใช้ทันที (สายฟ้า)&lt;/li&gt;
+  &lt;li&gt;ติดตัว (อินฟินิตี้)&lt;/li&gt;
+  &lt;li&gt;เก็บไว้ แต่ใช้ได้ครั้งเดียว (x1)&lt;/li&gt;
+  &lt;li&gt;แต้มจบเกม (ธง)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;survey-by-boat&quot;&gt;Survey by Boat&lt;/h5&gt;
+
+&lt;p&gt;&lt;mark&gt;4 - 6 ช่อง&lt;/mark&gt;&lt;/p&gt;
+
+&lt;p&gt;สำรวจด้วยเรือ โดยในแอพให้กดเลือกว่าจะหาสัตว์อะไร เมื่อกดในแอพแล้วจะบอกว่าเจอกี่ตัว&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;survey-by-foot&quot;&gt;Survey by Foot&lt;/h5&gt;
+
+&lt;p&gt;&lt;mark&gt;1 - 3 ช่อง&lt;/mark&gt;&lt;/p&gt;
+
+&lt;p&gt;สำรวจด้วยเท้า โดยในแอพให้กดเลือกว่าจะหาสัตว์อะไร เมื่อกดในแอพแล้วจะบอกว่าเจอกี่ตัว&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;camera-trap&quot;&gt;Camera Trap&lt;/h5&gt;
+
+&lt;p&gt;&lt;mark&gt;1 - 3 ช่อง&lt;/mark&gt;&lt;/p&gt;
+
+&lt;p&gt;เอากล้องไปวางจุดที่หยุดเดิน แล้วจะรู้ว่าพื้นที่นั่นมีสัตว์อะไรอยู่ หรือเป็นที่ว่างหรือป่าว&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;ตอบว่าสปีชีส์อยู่ช่องไหน&quot;&gt;ตอบว่าสปีชีส์อยู่ช่องไหน&lt;/h5&gt;
+
+&lt;p&gt;&lt;mark&gt;ต้องระบุได้ว่าช่องข้างๆ มีอะไรอยู่&lt;/mark&gt;&lt;/p&gt;
+
+&lt;p&gt;ทายว่า ?? อยู่ช่องไหน ถ้าถูกคนถัดไปจะได้ทายด้วยจนครบทุกคน ถ้าใครทายถูกจะได้แต้มตามระยะห่างจากคนที่ทายถูกคนแรก&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;endgame--scoring&quot;&gt;Endgame &amp;amp; Scoring&lt;/h3&gt;
+
+&lt;p&gt;จบเมื่อมีคนหาสัตว์เจอ แล้วทุกคนจะได้โอกาสเลือกว่าจะหาสัตว์เหมือนกัน หรือ วางโทเคนสำรวจสัตว์ โดยเงื่อนไขขึ้นอยู่กับระยะห่างจากคนทำจบเกม&lt;/p&gt;
+
+&lt;h4 id=&quot;scoring&quot;&gt;Scoring&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;แต้มจากการวางโทเคนในพื้นที่นั้นถูกคนแรก&lt;/li&gt;
+  &lt;li&gt;แต้มของสัตว์แต่ละชนิดที่เจอ&lt;/li&gt;
+  &lt;li&gt;แต้มของสัตว์หายากร&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 05 Apr 2025 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/Boardy/the-search-for-lost-species/</link>
+        <guid isPermaLink="true">http://localhost:4000/Boardy/the-search-for-lost-species/</guid>
+        
+        <category>วิธีเล่น</category>
+        
+        
+        <category>Deduction</category>
+        
+      </item>
     
       <item>
         <title>วิธีเล่น Puerto Rico 1897</title>
@@ -112,12 +421,12 @@
 
 &lt;h5 id=&quot;the-recruiter&quot;&gt;The Recruiter&lt;/h5&gt;
 
-&lt;p&gt;หยิบคนงานทีละ 1 ตัว จาก Work Register จากนั้นเอาคนงานย้ายไปทำงานต่อได้ทันที แต่เงื่อนไขคือต้องวางเต็มไทล์ไร่ก่อนถึงจะวางที่ Building ได้&lt;/p&gt;
+&lt;p&gt;หยิบคนงานทีละ 1 ตัว จาก Work Register จากนั้นเอาคนงานย้ายไปทำงานต่อได้ทันที (ต้องวางที่ Building ได้)&lt;/p&gt;
 
 &lt;p&gt;&lt;mark&gt;ถ้าเลือกคนแรกจะได้หยิบคนงานจากกองกลาง 1 ตัว&lt;/mark&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;หยิบไปเรื่อยๆ จนกว่าคนงานจะหมด เมื่อทุกคนเล่นเสร็จจะเติมคนงานตามจำนวนผู้เล่น&lt;/p&gt;
+  &lt;p&gt;เมื่อหยิบหมดแล้วให้เติมตามจำนวนช่องของ building ที่ว่างของทุกคน ถ้าน้อยกว่าจำนวนคนให้เติมตามจำนวนคน&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
@@ -481,8 +790,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 16 Mar 2025 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/seti/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/seti/</guid>
+        <link>http://localhost:4000/Boardy/seti-copy/</link>
+        <guid isPermaLink="true">http://localhost:4000/Boardy/seti-copy/</guid>
         
         <category>วิธีเล่น</category>
         
@@ -652,6 +961,8 @@
         
         <category>18xx</category>
         
+        <category>Economic</category>
+        
       </item>
     
       <item>
@@ -809,6 +1120,8 @@
         
         <category>Dice Drafting</category>
         
+        <category>Economic</category>
+        
       </item>
     
       <item>
@@ -938,6 +1251,8 @@
         
         
         <category>Worker Placement</category>
+        
+        <category>Economic</category>
         
       </item>
     

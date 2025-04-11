@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "วิธีเล่น Coal Baron"
-categories: [Worker Placement]
+categories: [Worker Placement, Economic]
 tags: [วิธีเล่น]
 image: assets/images/coal-baron/pic8417498.png
 author: p
