@@ -4,19 +4,75 @@ layout: default
 permalink: "/categories.html"
 ---
 
-
-{% for category in site.categories %}
-<h4 class="mt-5 mb-neg-30" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize badge badge-primary text-small">{{ category[0] }}</span></h4>
-<div class="blog-grid-container">
-{% assign pages_list = category[1] %}
-{% for post in pages_list %}
-{% if post.title != null %}
-{% if group == null or group == post.group %}
-{% include postbox.html %}
-{% endif %}
-{% endif %}
-{% endfor %}
-{% assign pages_list = nil %}
-{% assign group = nil %}
+<!-- Tabs navigation -->
+<div class="mb-4 border-bottom pb-2">
+  <ul class="nav nav-pills flex-wrap">
+    {% for category in site.categories %}
+      <li class="nav-item">
+        <a class="nav-link" href="#{{ category[0] | replace: ' ', '-' }}">{{ category[0] | capitalize }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
+
+<!-- Category sections -->
+{% for category in site.categories %}
+  <h4 class="mt-5 mb-neg-30" id="{{ category[0] | replace: " ","-" }}">
+    <span class="text-capitalize badge badge-primary text-small">{{ category[0] }}</span>
+  </h4>
+  <div class="blog-grid-container">
+    {% assign pages_list = category[1] %}
+    {% for post in pages_list %}
+      {% if post.title != null %}
+        {% if group == null or group == post.group %}
+          {% include postbox.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+  </div>
 {% endfor %}
+
+<!-- Back to Top Floating Button -->
+<a href="#top" class="back-to-top" aria-label="Back to top">▲</a>
+
+<!-- Styles for Back to Top -->
+<style>
+  .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background-color: #ffaa18;
+    color: #212529;
+    border-radius: 50%;
+    padding: 14px 19px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .back-to-top:hover {
+    background-color: #ca8611;
+    color: white;
+    text-decoration: none;
+    
+  }
+</style>
+
+<!-- Script to Show/Hide Back to Top Button -->
+<script>
+  window.addEventListener("scroll", function () {
+    const button = document.querySelector(".back-to-top");
+    if (window.scrollY > 200) {
+      button.style.display = "block";
+    } else {
+      button.style.display = "none";
+    }
+  });
+</script>
+
+<!-- Add this to top of your HTML layout to mark the top -->
+<body id="top">

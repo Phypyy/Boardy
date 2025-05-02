@@ -3,10 +3,10 @@
   <channel>
     <title>Boardy</title>
     <description>Boardy</description>
-    <link>http://localhost:4000/Boardy/</link>
-    <atom:link href="http://localhost:4000/Boardy/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Apr 2025 10:45:45 +0700</pubDate>
-    <lastBuildDate>Fri, 11 Apr 2025 10:45:45 +0700</lastBuildDate>
+    <link>/Boardy/</link>
+    <atom:link href="/Boardy/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 02 May 2025 12:07:37 +0700</pubDate>
+    <lastBuildDate>Fri, 02 May 2025 12:07:37 +0700</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -181,8 +181,8 @@
 &lt;p&gt;&lt;mark&gt;( (Income - Issue share) x 3 ) + แต้มจากราง&lt;/mark&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Apr 2025 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/age-of-steam/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/age-of-steam/</guid>
+        <link>/Boardy/age-of-steam/</link>
+        <guid isPermaLink="true">/Boardy/age-of-steam/</guid>
         
         <category>วิธีเล่น</category>
         
@@ -308,8 +308,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sat, 05 Apr 2025 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/the-search-for-lost-species/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/the-search-for-lost-species/</guid>
+        <link>/Boardy/the-search-for-lost-species/</link>
+        <guid isPermaLink="true">/Boardy/the-search-for-lost-species/</guid>
         
         <category>วิธีเล่น</category>
         
@@ -536,8 +536,8 @@
 &lt;p&gt;เหมือนตัวเกมปกติ&lt;/p&gt;
 </description>
         <pubDate>Sun, 30 Mar 2025 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/puerto-rico/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/puerto-rico/</guid>
+        <link>/Boardy/puerto-rico/</link>
+        <guid isPermaLink="true">/Boardy/puerto-rico/</guid>
         
         <category>วิธีเล่น</category>
         
@@ -790,8 +790,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 16 Mar 2025 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/seti-copy/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/seti-copy/</guid>
+        <link>/Boardy/seti-copy/</link>
+        <guid isPermaLink="true">/Boardy/seti-copy/</guid>
         
         <category>วิธีเล่น</category>
         
@@ -840,8 +840,8 @@
 &lt;p&gt;เกมนี้ควรมี Insert อย่างยิ่ง เพราะ Components เยอะมากๆๆๆ ที่ใช้อยู่จะเป็นกล่องแบ่งช่อง 30 ช่อง 2 อัน หาได้จากร้านขายของญี่ปุ่น 60 บาท (พวก Komonoya)&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Jan 2025 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/the-colonists/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/the-colonists/</guid>
+        <link>/Boardy/the-colonists/</link>
+        <guid isPermaLink="true">/Boardy/the-colonists/</guid>
         
         <category>รีวิว</category>
         
@@ -889,8 +889,8 @@
 &lt;p&gt;เกมนี้เหมาะสำหรับทุกเพศทุกวัย ไม่ว่าจะเป็นมือใหม่หรือคนที่มองหาเกมเบาๆ เล่นสนุกไปกับธีมญี่ปุ่นสดใส เล่นแล้วไม่เครียด แต่ยังได้คิดเล็กๆ น้อยๆ เพื่อวางแผนการเดินทางในฝันของตัวเอง&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Dec 2024 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/let-go-to-japan/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/let-go-to-japan/</guid>
+        <link>/Boardy/let-go-to-japan/</link>
+        <guid isPermaLink="true">/Boardy/let-go-to-japan/</guid>
         
         <category>รีวิว</category>
         
@@ -953,8 +953,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 02 Dec 2024 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/1862/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/1862/</guid>
+        <link>/Boardy/1862/</link>
+        <guid isPermaLink="true">/Boardy/1862/</guid>
         
         <category>รีวิว</category>
         
@@ -1112,8 +1112,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 01 Dec 2024 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/la-granja/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/la-granja/</guid>
+        <link>/Boardy/la-granja/</link>
+        <guid isPermaLink="true">/Boardy/la-granja/</guid>
         
         <category>วิธีเล่น</category>
         
@@ -1244,8 +1244,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 01 Dec 2024 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/Boardy/coal-baron/</link>
-        <guid isPermaLink="true">http://localhost:4000/Boardy/coal-baron/</guid>
+        <link>/Boardy/coal-baron/</link>
+        <guid isPermaLink="true">/Boardy/coal-baron/</guid>
         
         <category>วิธีเล่น</category>
         
