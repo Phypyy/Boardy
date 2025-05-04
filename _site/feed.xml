@@ -5,9 +5,59 @@
     <description>Boardy</description>
     <link>/Boardy/</link>
     <atom:link href="/Boardy/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 May 2025 12:07:37 +0700</pubDate>
-    <lastBuildDate>Fri, 02 May 2025 12:07:37 +0700</lastBuildDate>
+    <pubDate>Sun, 04 May 2025 11:48:08 +0700</pubDate>
+    <lastBuildDate>Sun, 04 May 2025 11:48:08 +0700</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>AOS - Germany</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;แผนที่ Germany ในกล่อง Deluxe หลัก&lt;/p&gt;
+
+  &lt;p&gt;ผู้เล่น 3 - 6 คน&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;green-hex&quot;&gt;Green Hex&lt;/h3&gt;
+
+&lt;p&gt;เป็น Off-board วางเมืองทับและเติมสินค้าไม่ได้ ตอน Setup สุ่มวางสินค้าที่ Green hex เมืองละชิ้น เพื่อบอกว่าแต่ละเมืองรับสินค้าสีไหนได้ และ Green hex จะเป็นเมืองปลายทางเสมอ&lt;/p&gt;
+
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ทุกเมืองมีสินค้า 2 ชิ้น (รวมถึง Berlin)&lt;/li&gt;
+  &lt;li&gt;Königsberg 3 ชิ้น&lt;/li&gt;
+  &lt;li&gt;Berlin 4 ชิ้น&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;actions&quot;&gt;Actions&lt;/h3&gt;
+
+&lt;p&gt;Engineer เปลี่ยนจากวาง 4 ราง เป็นลดราคาการสร้างราง 1 ครั้ง และสร้างได้แค่ 3 รางตามปกติ&lt;/p&gt;
+
+&lt;h3 id=&quot;building-track&quot;&gt;Building Track&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;การสร้างรางจะต้องวางเมือง - เมือง (Complete) ได้เท่านั้น ไม่สามารถสร้างรางทิ้งไว้ได้&lt;/li&gt;
+  &lt;li&gt;Düsseldorf กับ Essen เชื่อมถึงกันได้ โดยค่าสร้างคือ $2 และถือว่าเป็นหนึ่งใน 3 รางที่สร้างได้ในแต่ละรอบ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;goods-growth&quot;&gt;Goods Growth&lt;/h3&gt;
+
+&lt;p&gt;Berlin จะเติมสินค้า 1 ชิ้นทุกรอบจากถุงเสมอ&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 May 2025 00:00:00 +0700</pubDate>
+        <link>/Boardy/aos-ex-germany/</link>
+        <guid isPermaLink="true">/Boardy/aos-ex-germany/</guid>
+        
+        <category>วิธีเล่น</category>
+        
+        
+        <category>Train</category>
+        
+        <category>Pickup and Delivery</category>
+        
+        <category>Economic</category>
+        
+      </item>
     
       <item>
         <title>วิธีเล่น Age of Steam</title>
